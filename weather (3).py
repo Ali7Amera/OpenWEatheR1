@@ -21,7 +21,7 @@ import os
 # Using environment variable to keep the API key secure
 # and avoid exposing it in the source code.
 # ------------------------------------------------------------
-API_KEY = os.environ.get("OPENWEATHER_API_KEY", "64517e3b9ef5dc940a7fd6092e26e699")
+API_KEY = os.environ.get("OPENWEATHER_API_KEY", "")
 
 
 # ------------------------------------------------------------
